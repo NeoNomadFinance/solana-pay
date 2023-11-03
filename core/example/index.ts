@@ -30,16 +30,6 @@ import { createTransfer, encodeURL, findReference, parseURL, validateTransfer } 
         '&message=Thanks%20for%20all%20the%20fish' +
         '&memo=OrderId5678';
 
-        const ZARC_URL =
-        'solana:mvines9iiHiQTysrwkJjGf2gb9Ex9jXJX8ns3qwf2kN' +
-        '?amount=0.01' +
-        '&spl-token=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v' +
-        '&reference=' +
-        encodeURIComponent(String(originalReference)) +
-        '&label=Michael' +
-        '&message=Thanks%20for%20all%20the%20fish' +
-        '&memo=OrderId5678';
-
     const originalURL = NATIVE_URL;
     console.log(originalURL);
 
